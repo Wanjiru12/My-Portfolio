@@ -1,0 +1,23 @@
+body {
+  background-image: url("../images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mainNavbar ul li a {
+  color: #bea96a;
+  font-size: 36px;
+}
+.col-xs-3 {
+  background-color: #320f0d;
+}
+#projects .nav-link {
+  color: black;
+}
+
+#nav a:hover {
+  background-color: #f0f0f0;
+}
+.proj {
+  margin-top: 30px;
+}

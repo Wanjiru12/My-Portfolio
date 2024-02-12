@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row min-vh-100 flex-column flex-md-row">
+        <aside class="col-12 col-xs-3 col-xl-2 flex-shrink-1">
+          <nav
+            id="mainNavbar"
+            class="navbar navbar-expand-md navbar-dark bd-dark flex-md-column flex-row align-items-center py-2 sticky-top"
+          >
+            <div class="text-center p-3">
+              <img
+                src="./images/profile.jpg"
+                alt="Profile Picture"
+                class="img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow"
+              />
+            </div>
+            <div class="collapse navbar-collapse order-last" id="nav">
+              <ul class="navbar-nav flex-column w-100 justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </aside>
+        <main class="col px-0 flex-grow-1 align-self-center">
+          <div class="container py-3" id="skills">
+            <div class="text-wrapp pt-3" style="width: 40rem">
+              <ul class="fs-4 text text-start">
+                <li>
+                  <strong>Tools: </strong> Git, AWS Cloud Computing, Jira,
+                  SonarQube, Katalon Studio, Jenkins, Appium, Cucumber, Jmeter.
+                </li>
+                <li class="pt-5">
+                  <strong>Language: </strong>Javascript, Python, Html/Css
+                </li>
+                <li class="pt-5">
+                  <strong>Frameworks:</strong> Selenium, BDD Framework,
+                  Bootstrap
+                </li>
+                <li class="pt-5">
+                  <strong>Other Skills: </strong>Agile Methodologies, Automated
+                  Testing,Test driven development approaches API(Rest and SOAP),
+                  Design Thinking
+                </li>
+              </ul>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
